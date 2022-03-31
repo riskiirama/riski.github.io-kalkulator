@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Kalkulator Oleh: okattako" />
+    <meta property="og:image" content="./img/screenshoot.png" />
+    <title>Kalkulator Oleh: okattako</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <link rel="icon" href="./img/logo.png" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" />
+    <script src="script.js" defer></script>
+    <audio
+      id="audiopick"
+      src="./sounds/Final Fantasy VIII Sound Effects - Cursor Move (mp3cut.net).mp3"
+      autoplay="false"
+    ></audio>
+    <audio
+      id="audioclear"
+      src="./sounds/Final Fantasy VIII Sound Effects - Cursor Cancel (mp3cut.net).mp3"
+      autoplay="false"
+    ></audio>
+    <audio
+      id="audiowrong"
+      src="./sounds/Final Fantasy VIII Sound Effects - Cursor Wrong (mp3cut.net).mp3"
+      autoplay="false"
+    ></audio>
+    <audio
+      id="audioload"
+      src="./sounds/Final Fantasy VIII Sound Effects - Loaded (mp3cut.net).mp3"
+      autoplay="false"
+    ></audio>
+  </head>
+  <body>
+    <h1>Calculator</h1>
+
+    <div id="calculator" class="calculator">
+      <button id="clear" class="clear">C</button>
+
+      <div id="display" class="display">0</div>
+      <div id="history" class="history">
+        <div class="txthis">History:</div>
+        <div id="inhis" class="inhis">---</div>
+      </div>
+
+      <button class="num" data-num="7">7</button>
+      <button class="num" data-num="8">8</button>
+      <button class="num" data-num="9">9</button>
+      <button class="ops" data-ops="plus">+</button>
+
+      <button class="num" data-num="4">4</button>
+      <button class="num" data-num="5">5</button>
+      <button class="num" data-num="6">6</button>
+      <button class="ops" data-ops="minus">-</button>
+
+      <button class="num" data-num="1">1</button>
+      <button class="num" data-num="2">2</button>
+      <button class="num" data-num="3">3</button>
+      <button class="ops" data-ops="times">*</button>
+
+      <button class="num" data-num="0">0</button>
+      <button class="num" data-num=".">.</button>
+      <button class="equals" id="equals" data-result="">=</button>
+      <button class="ops" data-ops="divided by">/</button>
+    </div>
+    <footer></footer>
+  </body>
+</html>

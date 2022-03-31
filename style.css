@@ -1,0 +1,91 @@
+html {
+    background: #74e261;
+    background-image: linear-gradient(to right, #53a04c, #87d15c, #55d849);
+    background-attachment: fixed;
+    color: #000000;
+}
+
+body {
+    color: #0eff7e;
+    font: 300 18px/1.6 "Futura", sans-serif;
+    margin: 0;
+    padding: 5em 0 2em;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 300;
+    margin: 0;
+    font-size: 2em;
+    padding-bottom: 50px;
+}
+
+.calculator {
+    font-size: 28px;
+    margin: 0 auto;
+    width: 12em;
+    height: 500px;
+}
+
+.display {
+    color: #ff0606;
+    line-height: 3em;
+    text-align: right;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 3em;
+    padding-right: 20px;
+    transition: 0.5s;
+    background: rgba(52, 42, 76, 0.1);
+    border: solid rgba(161, 57, 8, 0.2) 1px;
+}
+.history {
+    color: rgba(175, 167, 198, 0.5);
+    font-size: 0.9em;
+    display: flex;
+    flex-direction: row;
+    height: 2em;
+    line-height: 2em;
+    border: solid rgba(161, 57, 8, 0.2) 1px;
+    background: rgba(52, 42, 76, 0.28);
+}
+.history .txthis {
+    margin-left: 10px;
+}
+.history .inhis {
+    width: 9.5em;
+    text-align: right;
+    margin-right: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+button {
+    border: solid rgba(175, 114, 85, 0.2) 1px;
+    background: rgba(52, 42, 76, 0.28);
+    color: #050505;
+    cursor: pointer;
+    float: left;
+    font: inherit;
+    width: 3em;
+    height: 3em;
+    transition: all 0.5s;
+}
+
+button:hover {
+    background: rgba(88, 80, 77, 0.8);
+    color: #f6f5f8;
+}
+button:active {
+    background-color: #0e0e0e;
+}
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+footer a {
+    color: #afa7c6;
+}
